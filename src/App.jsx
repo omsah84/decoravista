@@ -4,7 +4,6 @@ export default function App() {
     <div>
       <button type="button" className="btn btn-primary">Primary</button>
       hello
-      new saved
     </div>
   )
 }
