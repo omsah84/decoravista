@@ -6,7 +6,7 @@ function Offer(){
                     <p> our strenght of proficient execution is backend by
                     experienced designers and project and project managers with  rich experience in interior designing,space planning,and project execution services,turning any space into a powerful expression of the client's personality.</p>
                 </p>
-                <div className="d-flex justify-content-center gap-5"></div>
+                <div className="d-flex justify-content-center gap-5">
                 <div className="card w-25" style={{height: "300px"  }}>
                     <h1 className="text-center">Warranty</h1>
                     <p> FLAT 10-year Warranty on modular products
@@ -43,6 +43,7 @@ function Offer(){
 
 
 
+        </div>
         </div>
 
                 
