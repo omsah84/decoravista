@@ -72,6 +72,254 @@ export default function SimpleSlider() {
           </div>
         </Slider>
       </div>
+      <div style={divv}>
+                <h4 className="text-center">Living Room to Match Every Style</h4>
+                <p style={divv1}className="text-center">Discover elegant and cozy designs for your gathering spaces</p>
+            </div>
+      <div>
+        <Slider {...settings}>
+          <div>
+            <img style={para} src="img1.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Monochromatic Grey 2 BHK</h3>
+            <p style={words} className="text-center">A calm,monochromatic palette of grey hues<br></br>creates a scences and professional atomsophere for<br></br>foucsed productivity</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img2.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Bohemian Home Office</h3>
+            <p style={words} className="text-center">Eclectic and free-spirited,with vibrant colors,patterns,and plants,this space encourages<br></br>creativity and individuality</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img3.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Industrial Home Office</h3>
+            <p style={words} className="text-center">Exposed brick,metal accents, and dark tone<br></br> create a raw,industrail atomsphere for a modern<br></br>and edgy workspace</p>
+            <button style={wordss}type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img  style={para} src="img4.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Royal & Elegant3 BHK</h3>
+            <p style={words} className="text-center">Embrace regel elegance with luxurious<br></br>finishes and rich textures,perfect for adding<br></br>sophistication to any home office.</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src=" img8.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Tech-Savvy Home Office</h3>
+            <p style={words} className="text-center">Seamlessly INtegrate the lateset gadegets an<br></br>technology into ur workspace,providing a<br></br>a modern and efficient working environment</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img5.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Traditonal Home Office</h3>
+            <p style={words} className="text-center">Timeless and elegant,with classic wooderr<br></br>furniture and intricate details,this office<br></br>excudes professionalism and sophistication</p>
+            <button style={wordss}type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img6.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Scandinavian Home Office</h3>
+            <p  style={words} className="text-center">Light wood,natural light,and minimalit<br></br>furiniture create a clean and functional space<br></br>with a touch of Nordic elegance</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img9.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Rustic Home Office</h3>
+            <p  style={words} className="text-center">Warm wood tones and vintage decor bring<br></br>cozy,earthy charm to your workspace,perfect<br></br>for creating a relaxing environment</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img7.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Modern Minimilastic Home Office</h3>
+            <p style={words} className="text-center">Sleek lines,neutral colors,and clutte-free<br></br>design promote focus and efficiency in this<br></br>minimalist setup</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+        </Slider>
+      </div>
+      <div style={divv}>
+                <h4 className="text-center">Bedroom to Match Every Style</h4>
+                <p style={divv1}className="text-center">Create your serene retreat with our stylish bedroom designs</p>
+            </div>
+      <div>
+        <Slider {...settings}>
+          <div>
+            <img style={para} src="img1.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Monochromatic Grey 2 BHK</h3>
+            <p style={words} className="text-center">A calm,monochromatic palette of grey hues<br></br>creates a scences and professional atomsophere for<br></br>foucsed productivity</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img2.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Bohemian Home Office</h3>
+            <p style={words} className="text-center">Eclectic and free-spirited,with vibrant colors,patterns,and plants,this space encourages<br></br>creativity and individuality</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img3.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Industrial Home Office</h3>
+            <p style={words} className="text-center">Exposed brick,metal accents, and dark tone<br></br> create a raw,industrail atomsphere for a modern<br></br>and edgy workspace</p>
+            <button style={wordss}type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img  style={para} src="img4.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Royal & Elegant3 BHK</h3>
+            <p style={words} className="text-center">Embrace regel elegance with luxurious<br></br>finishes and rich textures,perfect for adding<br></br>sophistication to any home office.</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src=" img8.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Tech-Savvy Home Office</h3>
+            <p style={words} className="text-center">Seamlessly INtegrate the lateset gadegets an<br></br>technology into ur workspace,providing a<br></br>a modern and efficient working environment</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img5.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Traditonal Home Office</h3>
+            <p style={words} className="text-center">Timeless and elegant,with classic wooderr<br></br>furniture and intricate details,this office<br></br>excudes professionalism and sophistication</p>
+            <button style={wordss}type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img6.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Scandinavian Home Office</h3>
+            <p  style={words} className="text-center">Light wood,natural light,and minimalit<br></br>furiniture create a clean and functional space<br></br>with a touch of Nordic elegance</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img9.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Rustic Home Office</h3>
+            <p  style={words} className="text-center">Warm wood tones and vintage decor bring<br></br>cozy,earthy charm to your workspace,perfect<br></br>for creating a relaxing environment</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img7.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Modern Minimilastic Home Office</h3>
+            <p style={words} className="text-center">Sleek lines,neutral colors,and clutte-free<br></br>design promote focus and efficiency in this<br></br>minimalist setup</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+        </Slider>
+      </div>
+      <div style={divv}>
+                <h4 className="text-center">Dining Room to Match Every Style</h4>
+                <p style={divv1}className="text-center">Enjoy delightful dining experiences in beautifully designed spaces.</p>
+            </div>
+      <div>
+        <Slider {...settings}>
+          <div>
+            <img style={para} src="img1.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Monochromatic Grey 2 BHK</h3>
+            <p style={words} className="text-center">A calm,monochromatic palette of grey hues<br></br>creates a scences and professional atomsophere for<br></br>foucsed productivity</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img2.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Bohemian Home Office</h3>
+            <p style={words} className="text-center">Eclectic and free-spirited,with vibrant colors,patterns,and plants,this space encourages<br></br>creativity and individuality</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img3.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Industrial Home Office</h3>
+            <p style={words} className="text-center">Exposed brick,metal accents, and dark tone<br></br> create a raw,industrail atomsphere for a modern<br></br>and edgy workspace</p>
+            <button style={wordss}type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img  style={para} src="img4.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Royal & Elegant3 BHK</h3>
+            <p style={words} className="text-center">Embrace regel elegance with luxurious<br></br>finishes and rich textures,perfect for adding<br></br>sophistication to any home office.</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src=" img8.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Tech-Savvy Home Office</h3>
+            <p style={words} className="text-center">Seamlessly INtegrate the lateset gadegets an<br></br>technology into ur workspace,providing a<br></br>a modern and efficient working environment</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img5.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Traditonal Home Office</h3>
+            <p style={words} className="text-center">Timeless and elegant,with classic wooderr<br></br>furniture and intricate details,this office<br></br>excudes professionalism and sophistication</p>
+            <button style={wordss}type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img6.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Scandinavian Home Office</h3>
+            <p  style={words} className="text-center">Light wood,natural light,and minimalit<br></br>furiniture create a clean and functional space<br></br>with a touch of Nordic elegance</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img9.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Rustic Home Office</h3>
+            <p  style={words} className="text-center">Warm wood tones and vintage decor bring<br></br>cozy,earthy charm to your workspace,perfect<br></br>for creating a relaxing environment</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img7.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Modern Minimilastic Home Office</h3>
+            <p style={words} className="text-center">Sleek lines,neutral colors,and clutte-free<br></br>design promote focus and efficiency in this<br></br>minimalist setup</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+        </Slider>
+      </div>
+      <div style={divv}>
+                <h4 className="text-center">Outdoor Space to Match Every Style</h4>
+                <p style={divv1}className="text-center">Enhance your outdoor areas for relaxation and entertainment</p>
+            </div>
+      <div>
+        <Slider {...settings}>
+          <div>
+            <img style={para} src="img1.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Monochromatic Grey 2 BHK</h3>
+            <p style={words} className="text-center">A calm,monochromatic palette of grey hues<br></br>creates a scences and professional atomsophere for<br></br>foucsed productivity</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img2.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Bohemian Home Office</h3>
+            <p style={words} className="text-center">Eclectic and free-spirited,with vibrant colors,patterns,and plants,this space encourages<br></br>creativity and individuality</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img3.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Industrial Home Office</h3>
+            <p style={words} className="text-center">Exposed brick,metal accents, and dark tone<br></br> create a raw,industrail atomsphere for a modern<br></br>and edgy workspace</p>
+            <button style={wordss}type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img  style={para} src="img4.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Royal & Elegant3 BHK</h3>
+            <p style={words} className="text-center">Embrace regel elegance with luxurious<br></br>finishes and rich textures,perfect for adding<br></br>sophistication to any home office.</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src=" img8.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Tech-Savvy Home Office</h3>
+            <p style={words} className="text-center">Seamlessly INtegrate the lateset gadegets an<br></br>technology into ur workspace,providing a<br></br>a modern and efficient working environment</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img5.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Traditonal Home Office</h3>
+            <p style={words} className="text-center">Timeless and elegant,with classic wooderr<br></br>furniture and intricate details,this office<br></br>excudes professionalism and sophistication</p>
+            <button style={wordss}type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img6.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Scandinavian Home Office</h3>
+            <p  style={words} className="text-center">Light wood,natural light,and minimalit<br></br>furiniture create a clean and functional space<br></br>with a touch of Nordic elegance</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img9.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Rustic Home Office</h3>
+            <p  style={words} className="text-center">Warm wood tones and vintage decor bring<br></br>cozy,earthy charm to your workspace,perfect<br></br>for creating a relaxing environment</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+          <div>
+            <img style={para} src="img7.jpg" alt="na"/>
+            <h3 style={word} className="text-center">Modern Minimilastic Home Office</h3>
+            <p style={words} className="text-center">Sleek lines,neutral colors,and clutte-free<br></br>design promote focus and efficiency in this<br></br>minimalist setup</p>
+            <button style={wordss} type="button" className="btn btn-danger">Get Free Quote</button>
+          </div>
+        </Slider>
+      </div>
     </>
   );
 }
@@ -96,4 +344,11 @@ const words={
 const wordss={
   marginLeft:"160px"
 
+}
+const divv={
+  marginTop:"50px",
+}
+const divv1={
+  marginTop:"20px",
+  fontWeight: "600"
 }
