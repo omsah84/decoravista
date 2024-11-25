@@ -17,7 +17,44 @@ function Footer() {
   //   gap:"10"
 
   // }
+  const buttonstyling = {
+    width: "100px",
+    color: "white",
+    border: "none",
+    borderRadius: "20px",
+    padding: "4px",
+    backgroundColor: "black",
+    fontSize: "15px",
+    color: "white"
+  };
+  const para = {
+    fontSize: "20px",
+    marginTop: "2px",
+    marginBottom: "0px"
+  }
+  const headd = {
+    fontSize: "30px",
+    marginBottom: "0px"
+  }
+  const more={
+    width: "100%",
+     height: "fitContent",
+     marginTop:"50px",
 
+  }
+  const pic={
+    width:"200px",
+    height:"100px"
+  }
+
+  const foot={
+    width: "100%",
+    height: "fitContent",
+    color: "white",
+    marginTop: "20px",
+    borderRadius:"14% 14% 0 0",
+    padding:'10px'
+  }
 
   return (<>
     {/* <div style={maindiv}>
@@ -38,18 +75,18 @@ function Footer() {
       <div>
         <h2>Book your</h2>
         <h3>Free consult</h3>
-        <div><button input type="text">Book Now</button></div>
+        <div><button input type="text" >Book Now</button></div>
       </div>
     </div> */}
 
 
-    <div>
-      <div className="d-flex justify-content-around" style={{ width: "100%", height: "100px", border: "2px solid red" }}>
-        <div className="text-center" style={{ width: "40%", border: "2px solid red" }}>
+    <div style={{height:"300px"}}>
+      <div className="d-flex justify-content-around" style={more}>
+        <div className="text-center" style={{ width: "40%"}}>
 
-          <h6>logo</h6>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <div className="d-flex justify-content-center gap-2" >
+        <img style={pic} src="img1.jpg" alt="imgg"></img>
+          <p>WE ARE NEW!BUT EXPERIENCED!</p>
+          <div className="d-flex justify-content-center gap-4" >
 
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-facebook" viewBox="0 0 16 16">
@@ -73,17 +110,29 @@ function Footer() {
 
           </div>
         </div>
-        <div className="text-center" style={{ width: "40%", border: "2px solid red" }}>
+        <div className="text-center" style={{ width: "40%" }}>
 
-          hello
+          <h3 style={headd}> Book Your</h3>
+          <p style={para}>Free Consult</p>
+          <div>
+            <button input type="text" style={buttonstyling}> BookNow <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671" />
+            </svg></button>
+          </div>
 
         </div>
 
       </div>
-      <div style={{ width: "100%", height: "100px" }}>
-
-
-        bottom
+      <div className="bg-black"  style={foot}>
+        <div className="d-flex justify-content-center gap-3">
+          <div>Home</div>
+          <div>About</div>
+          <div>Shop</div>
+          <div>Services</div>
+          <div>Blog</div>
+          <div>Contact</div>
+        </div>
+        <p className="text-center"> &copy; 2024 Divi Interior Designer.All Rights Reserved.</p>
 
 
       </div>
@@ -96,5 +145,6 @@ function Footer() {
   </>
   );
 }
+
 
 export default Footer;
