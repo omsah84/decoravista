@@ -1,35 +1,39 @@
 import logo from "../assets/logo.jpg"
-import mylogo from "../assets/mylogo.jpg"
 function Navbar() {
     return (<>
-        <nav class="navbar">
-            <div className="d-flex justify-content-between gap-2">
-                <img src={logo}></img>
-                <div style={item} className="d-flex justify-content-between gap-3">
-                    <div>INTERIORS</div>
-                    <div>DESIGN IDEAS</div>
-                    <div>CITIES</div>
-                    <div>MORE</div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src={logo} style={{width:"170px", height:"30px"}} alt="" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        
+                       
+                    </ul>
+                    
                 </div>
             </div>
         </nav>
-            <div>
-                <img style={pic} src={mylogo}alt="logoo"></img>
-            </div>
-        
 
 
     </>
     );
 };
-const item = {
-    fontWeight: "700",
-    marginTop:"9px"
-}
-const pic={
-    width:"100%",
-    height:"400px",
-   
-}
 
 export default Navbar;
