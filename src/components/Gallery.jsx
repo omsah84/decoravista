@@ -6,22 +6,26 @@ import img5 from "../assets/small-garden-landscape-interior-design_1091270-42655
 function Gallery() {
   return (
     <>
-      <div className="container">
+      <div id="gallery" className="container">
         <h4 className="text-center mt-5">
           Evaluate Your Home with Stylish Interior Design Ideas
         </h4>
         <div>
           <div className="d-flex flex-column flex-sm-row justify-content-around pt-1 gap-1">
-            <img src={img1} height="300px" width="100%" objectFit="cover" />
-            <img src={img2} height="300px" width="100%" objectFit="cover" />
+            <img src={img1} height="300px" width="100%" />
+            <img src={img2} height="300px" width="100%" />
           </div>
           <div className="d-flex flex-column flex-sm-row justify-content-around pt-1 gap-1">
-            <img src={img3} height="300px" width="33.3%" objectFit="cover" />
-            <img src={img4} height="300px" width="33.3%" objectFit="cover" />
-            <img src={img5} height="300px" width="33.3%" objectFit="cover" />
-          </div> 
-
-        
+            <div>
+              <img src={img3} height="100%" width="100%" />
+            </div>
+            <div>
+              <img src={img4} height="100%" width="100%" />
+            </div>
+            <div>
+              <img src={img5} height="100%" width="100%" />
+            </div>
+          </div>
         </div>
       </div>
     </>

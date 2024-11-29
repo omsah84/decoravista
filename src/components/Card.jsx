@@ -4,7 +4,7 @@ import img3 from "../assets/interior-design-photo_1115474-29430.avif"
 import img4 from "../assets/interior-design-hd-image_1012565-24237.jpg"
 function Card() {
   return (
-    <div>
+    <div id="interior-designs">
       <h4 className="text-center">
         Your ultimate Destination for Interior Designs
       </h4>
@@ -14,7 +14,7 @@ function Card() {
             src={img1}
             height="200px"
             width="100%"
-            objectFit="cover"
+           
           />
           <h6 className="mt-3">Modular Interiors</h6>
           <p>
@@ -29,14 +29,14 @@ function Card() {
             src={img2}
             height="200px"
             width="100%"
-            objectFit="cover"
+          
           />
           <h6 className="mt-3">Full Home Interiors</h6>
           <p>
               TurnKey Interiors solutions for your home
           </p>
           <a href="" style={{ textDecoration: "none" }}>
-            Learn More >
+            Learn More 
           </a>
         </div>
         <div className="card" style={{flexBasis:"24%"}}>
@@ -44,7 +44,7 @@ function Card() {
             src={img3}
             height="200px"
             width="100%"
-            objectFit="cover"
+           
           />
           <h6 className="mt-3">Luxury Interiors</h6>
           <p>
@@ -60,7 +60,7 @@ function Card() {
             src={img4}
             height="200px"
             width="100%"
-            objectFit="cover"
+           
           />
           <h6 className="mt-3">Renovations</h6>
           <p>
@@ -68,7 +68,7 @@ function Card() {
             consequuntur sunt tempora quis.
           </p>
           <a href="" style={{ textDecoration: "none" }}>
-            Learn More >
+            Learn More 
           </a>
         </div>
       </div>

@@ -21,7 +21,7 @@ export default function App() {
       <Slider2 />
       <Slider3 />
       <Slider4 />
-      <Card/>
+      <Card/> 
       <Gallery/>
       <Footer/>
      

@@ -1,9 +1,8 @@
-import React from "react";
 import Slider from "react-slick";
 import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
-import img4 from "../assets/img4.jpg";
+
 import img5 from "../assets/img5.jpg";
 import img6 from "../assets/img6.jpg";
 
@@ -36,7 +35,7 @@ export default function Slider1() {
   };
 
   return (
-    <div className=" my-4">
+    <div id="interior" className=" my-4">
       <Slider {...settings}>
         {/* Slide 1 */}
         <div className="p-3">
