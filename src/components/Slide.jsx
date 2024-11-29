@@ -2,7 +2,7 @@ function Slide() {
     return (
         <>
             <h5 style={hed} className="text-center">Your Trust Factor</h5>
-            <div style={bodystyle} className="d-flex justify-content-center items-center">
+            <div style={bodystyle} className="d-flex justify-content-center flex-column flex-sm-column flex-md-row items-center">
                 <div style={divstyle}>
                 <img width="55" height="55" src="https://img.icons8.com/fluency/48/house-with-a-garden.png" alt="house-with-a-garden"/>
                     <p style={para}>100,000+happy homes</p>
@@ -51,8 +51,6 @@ const bodystyle = {
 const divstyle = {
     width: "350px",
     height: "120px",
-    marginLeft: "50px",
-    marginRight: "20px",
     padding: "10px",
     textAlign: "center",
     boxShadow:"8px 8px 5px #bccec4"

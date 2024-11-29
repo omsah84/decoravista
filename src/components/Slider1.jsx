@@ -1,7 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
+import img4 from "../assets/img4.jpg";
+import img5 from "../assets/img5.jpg";
+import img6 from "../assets/img6.jpg";
 
-export default function SimpleSlider() {
+export default function Slider1() {
   const settings = {
     dots: true,
     infinite: true,
@@ -37,10 +43,10 @@ export default function SimpleSlider() {
           <div className="d-flex flex-column align-items-center">
             <div className="w-100" style={{ height: "200px" }}>
               <img
-                src="img1.jpg"
+                src={img1}
                 alt="Monochromatic Grey 2 BHK"
                 className="img-fluid w-100 h-100"
-                style={{ objectFit: "cover" }}
+                style={{objectFit: "cover", borderRadius:"20px" }}
               />
             </div>
             <h3 className="mt-2 text-center fw-bold">
@@ -59,10 +65,10 @@ export default function SimpleSlider() {
           <div className="d-flex flex-column align-items-center">
             <div className="w-100" style={{ height: "200px" }}>
               <img
-                src="img2.jpg"
+                src={img2}
                 alt="Bohemian Home Office"
                 className="img-fluid w-100 h-100"
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", borderRadius:"20px"}}
               />
             </div>
             <h3 className="mt-2 text-center fw-bold">Bohemian Home Office</h3>
@@ -79,10 +85,10 @@ export default function SimpleSlider() {
           <div className="d-flex flex-column align-items-center">
             <div className="w-100" style={{ height: "200px" }}>
               <img
-                src="img3.jpg"
+                src={img3}
                 alt="Industrial Home Office"
                 className="img-fluid w-100 h-100"
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover" ,borderRadius:"20px"}}
               />
             </div>
             <h3 className="mt-2 text-center fw-bold">Industrial Home Office</h3>
@@ -99,10 +105,10 @@ export default function SimpleSlider() {
           <div className="d-flex flex-column align-items-center">
             <div className="w-100" style={{ height: "200px" }}>
               <img
-                src="img4.jpg"
+                src={img5}
                 alt="Minimalist Home Office"
                 className="img-fluid w-100 h-100"
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover",borderRadius:"20px" }}
               />
             </div>
             <h3 className="mt-2 text-center fw-bold">Minimalist Home Office</h3>
@@ -119,10 +125,10 @@ export default function SimpleSlider() {
           <div className="d-flex flex-column align-items-center">
             <div className="w-100" style={{ height: "200px" }}>
               <img
-                src="img5.jpg"
+                src={img6}
                 alt="Scandinavian Home Office"
                 className="img-fluid w-100 h-100"
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover",borderRadius:"20px" }}
               />
             </div>
             <h3 className="mt-2 text-center fw-bold">
@@ -139,4 +145,3 @@ export default function SimpleSlider() {
     </div>
   );
 }
-
