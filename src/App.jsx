@@ -9,6 +9,7 @@ import Slide from "./components/Slide";
 import Gallery from "./components/Gallery"
 import Footer from "./components/Footer"
 import Card from "./components/Card"
+import Offer from "./components/Offer";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
       <Slider3 />
       <Slider4 />
       <Card/> 
+      <Offer/>
       <Gallery/>
       <Footer/>
      
