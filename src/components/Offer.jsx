@@ -10,7 +10,7 @@ function Offer() {
                 <h1 className="text-center"> What we offer </h1>
                 <p className="text-center" style={{ padding: "0px 100px" }}>
                     <p> our strenght of proficient execution is backend by
-                        experienced designers and project and project managers with  rich experience in interior designing,space planning,and project execution services,turning any space into a powerful expression of the client's personality.</p>
+                        experienced designers and project and project managers with  rich experience in interior designing,space planning,and project execution services,turning any space into a powerful expression of the clients personality.</p>
                 </p>
                 <div className="d-flex flex-column  flex-sm-column  flex-lg-row justify-content-center gap-5">
                     <div className="card text-center  p-3 m-3" style={{ height: "fit-content",boxShadow:"0px 0px 3px red" }}>
@@ -50,7 +50,7 @@ function Offer() {
 
 
     );
-};
+}
 
 
 export default Offer;
