@@ -6,6 +6,10 @@ import Slider2 from "./components/Slider2";
 import Slider3 from "./components/Slider3";
 import Slider4 from "./components/Slider4";
 import Slide from "./components/Slide";
+import Gallery from "./components/Gallery"
+import Footer from "./components/Footer"
+import Card from "./components/Card"
+
 export default function App() {
   return (
     <div>
@@ -17,6 +21,10 @@ export default function App() {
       <Slider2 />
       <Slider3 />
       <Slider4 />
+      <Card/>
+      <Gallery/>
+      <Footer/>
+     
     </div>
   );
 }
